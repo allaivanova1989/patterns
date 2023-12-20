@@ -1,5 +1,8 @@
-package org.example;
+package org.example.abstractFactory;
 
+/**
+ * В абстрактной фабрике, в отличии от обычной фабрики, реализация идет через интерфейсы.
+ */
 public abstract class AbstractFactory {
     public abstract Cat createCat();
 

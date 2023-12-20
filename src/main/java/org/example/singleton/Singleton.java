@@ -1,4 +1,4 @@
-package org.example;
+package org.example.singleton;
 
 public final class Singleton {
     private static Singleton instance = null;

@@ -1,5 +1,8 @@
 package org.example.prototype;
 
+/**
+ * Клиентский класс
+ */
 public class VersionControlRunner {
     public static void main(String[] args) {
         Project master = new Project(1, "superProject", "source");
