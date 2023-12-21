@@ -1,5 +1,8 @@
 package org.example.composite;
 
+/**
+ * Клиентский класс
+ */
 public class Project {
     public static void main(String[] args) {
         Team team = new Team();

@@ -1,5 +1,8 @@
 package org.example.iterator;
 
+/**
+ * Клиентский класс
+ */
 public class JavaDevRunner {
     public static void main(String[] args) {
         String[] skills = {"java", "allure", "springBoot"};

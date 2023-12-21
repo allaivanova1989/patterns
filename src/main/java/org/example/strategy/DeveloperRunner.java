@@ -19,8 +19,8 @@ public class DeveloperRunner {
         dev.executeActivity();
     }
 
-    /**
-     * Похож на шаблон State. Но в State  управление сменой активностей в классе DevState.
-     * А в шаблоне Strategy это делается в клиентском классе
-     */
+
+    // Похож на шаблон State. Но в State  управление сменой активностей в классе DevState.
+    // А в шаблоне Strategy это делается в клиентском классе
+
 }

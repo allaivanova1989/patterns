@@ -10,17 +10,17 @@ public class Programm {
 //        Developer pitondev = new PitonDev();
 //        javadev.writeCode();
 
-        /**
-         * Чтобы не создавать в клиенском классе экземпляр разработчика - создадим фабрику.
-         */
+
+        //  Чтобы не создавать в клиенском классе экземпляр разработчика - создадим фабрику.
+
 
         DeveloperFactory developerFactory = new JavaDevFactory();
         Developer dev = developerFactory.createDeveloper();
         dev.writeCode();
 
-        /**
-         * Теперь достаточно изменить саму фабрику
-         */
+
+        //  Теперь достаточно изменить саму фабрику
+
 
     }
 }
